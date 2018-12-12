@@ -9,3 +9,5 @@ urlpatterns = [
     path('message/create/', MessageCreate.as_view()),
     path('message/<int:pk>/delete/', MessageDelete.as_view()),
 ]
+
+# aaa
